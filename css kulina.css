@@ -1,0 +1,33 @@
+h1 {
+  color :#424749;
+}
+h2 {
+  color :#6e7679;
+}
+.flex-list {
+  display: flex;
+}
+.flex-list li {
+  flex: auto;
+  list-style: none;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.lunch:active{
+  background: #424749;
+}
+
+/*untuk iphone/smartphone*/
+@media (max-width:670px) {
+  .item {
+    width: 100%;
+  }
+}
+/*untuk tablet*/
+@media (max-width:1000px) {
+  .item {
+    width: 50%;
+  }
+}
